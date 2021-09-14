@@ -19,92 +19,38 @@
                 <ul>
                     <li><a href="index.html">WORKS</a></li>
                     <li class="on"><a href="about.html">ABOUT</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li id="contact"><a href="#">CONTACT</a></li>
                 </ul>
             </div>
-            <div class="col-11 contactmenu">
-                <div><p>moving_gun@naver.com</p></div>
-                <div><p>010.4499.3140</p></div>
+            <!-- 컨택트 토글 -->
+            <div id="contact-info" class="col-2 contactmenu">
+                <div>
+                    <p id="mail"><a href="#">moving_gun@naver.com</a></p>
+                </div>
+                <div>
+                    <p id="phone"><a href="#">010.4499.3140</a></p>
+                </div>
             </div>
+            <div class="col-9"></div>
         </div>
     </div>
 
-    
-    <div class="content wrapper">
-        <div id="backspace"><a href="index.html">〈</a></div>
-        <div class="thumbnail flex ">
-            <div class="col-4 img_frame2"><a href="#"><img src="images/works1.jpg">  
-            </a></div>
-            <div class="col-4 img_frame2"><a href="#"><img src="images/works2.jpg">
-            </a></div>
-            <div class="col-4 img_frame2"><a href="#"><img src="images/works3.jpg">
-            </a></div>
-            
-        </div>
 
-       <div class="about">
-           <div class="flex">
-               <div class="article col-4">
-                   <h2>TONKASU?</h2>
-                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem exercitationem accusantium
-                       earum
-                       assumenda ducimus ex sint? Porro, illum. Libero ea possimus quae est dicta sunt optio, non
-                       explicabo
-                       ratione.</p>
-               </div>
-               <div class="article col-4">
-                   <h2>STORY</h2>
-                   <p>Lorem ipsum dolor sit, ametisicing elolorem exercitationem accusantium
-                       earum
-                       assumenda ducimx sint? Po ea possimuuae est dicta sunt optio,
-                       non
-                       explicabo
-                       ratione.</p>
-               </div>
-               <div class="article col-4">
-                   <h2>EDUCATION</h2>
-                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elitorem exercitationem accusantium
-                       earum
-                       assumenda ducimus exint?. Libero ea posuae est dicta sunt optio,
-                       non
-                       explicabo
-                       ratione.</p>
-               </div>
-           </div>
-           <div class="flex">
-               <div class="article col-4">
-                   <h2>ETC.</h2>
-                   <p>Lorem ipsum dolor sit, actetur adipisicing eliDolorem exercitationem accusantium
-                       earum
-                       assumenda ducimus ex sint? Porro, illum. Libero ea possimuuae est dicta sunt optio,
-                       non
-                       explicabo
-                       ratione.</p>
-               </div>
-               <div class="article col-4">
-                   <h2>CONTACT</h2>
-                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Dolorem exercitationem accusantium
-                       earum
-                       assumenda ducimuquae est dicta sunt optio,
-                       non
-                       explicabo
-                       ratione.</p>
-               </div>
-               <div class="article col-4">
-               </div>
-           </div>
-        </div>
+    <div class="content">
+        <div>
+            <div class="about">
+                <div class="col-9 img_frame2"><img src="images/about2.png">
+                 <div id="about-subtitle1" class="about-text wow fadeInDown"><h3>TONKASU<br>+&ensp;GRAPH</h3></div>
+                 <div id="about-info1" class="article wow fadeInRight" data-wow-delay=".6s" data-wow-duration="1s">
+                    <div>
+                        <h2>TONKASU</h2>
+                        <p>두손을 행복스럽고 있는 청춘을 할지니, 있다. 못할 있는 인생에 주며, 
+                        원대하고, 이상은 칼이다. 얼음 열락의 원질이 것이다. 
+                        열매를 영원히 청춘에서만 하는 이것이다.</p>
+                   </div>
+            </div> 
+        </div> 
     </div>
-       
-    
-
-    
-       
-       
-        
-       
-
-    
 
 
 
@@ -116,6 +62,12 @@
             <div class="col-2 footertext"><a>2019-2022 / TONKASU GRAPH</a></div>
         </div>
     </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
